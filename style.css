@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(19, 21, 24, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    padding: 19.5rem 51.4rem;
+}
+
+
+.oneMain{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+display: flex;
+flex-direction: column;
+gap: 3rem;
+padding: 3.2rem;
+border-radius: 2rem;
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.7rem;
+    height: 4.7rem;
+border-radius: 50%;
+background: rgba(38, 46, 56, 1);
+
+}
+
+
+.h1andParagraph {
+display: flex;
+flex-direction: column;
+gap: 0.7rem;
+}
+
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.545rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.h1andParagraph p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+    color: rgba(150, 159, 173, 1);
+}
+
+.flex {
+    display: flex;
+    gap: 2.1rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.1rem;
+    height: 5.1rem;
+    background: rgba(38, 46, 56, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section p{
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 2.4rem;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: rgba(124, 135, 152, 1);
+}
+
+.section.hover {
+    background: rgba(252, 118, 20, 1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+border-radius: 2rem;
+padding: 1.5rem;
+cursor: pointer;
+}
+
+footer p {
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 1.9rem;
+letter-spacing: 2px;
+text-align: left;
+color: rgba(252, 118, 20, 1);
+}
+
+.imageilustration {
+
+    display: none;
+    width: 16.2rem;
+height: 10.8rem;
+}
+
+.selectedConteiner {
+
+    background: rgba(38, 46, 56, 1);
+border-radius: 1rem;
+padding: 0.4rem;
+display: flex;
+align-items: center;
+display: none;
+}
+
+.selectedConteiner p, span{
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.4rem;
+text-align: center;
+color: rgba(252, 118, 20, 1);
+}
+
+.domH1 {
+    display: none;
+}
+
+.paragraphisconteiner{
+    width: 34rem;
+}
+
+.paragraphDom {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    color: rgba(150, 159, 173, 1);
+}
+
